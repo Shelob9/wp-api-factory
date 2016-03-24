@@ -11,10 +11,12 @@
  * @copyright 2016 Josh Pollock
  */
 
-namespace josh\api_factory\system;
+namespace josh\api_factory;
 
 
+use josh\api_factory\system\factory;
 use josh\api_factory\util;
+
 
 class init {
 
