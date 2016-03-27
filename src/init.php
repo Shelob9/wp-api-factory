@@ -76,7 +76,7 @@ class init {
 	 *
 	 * @param array $endpoints
 	 */
-	protected function run_endpoints( array $endpoints ){
+	public function run_endpoints( array $endpoints ){
 		foreach ( $endpoints as $endpoint  ) {
 			if( ! isset( $endpoint[ 'cap' ] ) ){
 				$endpoint[ 'cap' ] = 'nonce';
