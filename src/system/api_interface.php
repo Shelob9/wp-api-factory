@@ -9,7 +9,7 @@
  * @copyright 2016 Josh Pollock
  */
 
-namespace josh\api_factory;
+namespace josh\api_factory\system;
 
 
 interface api_interface {
