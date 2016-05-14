@@ -2,14 +2,14 @@
 /**
  * Factory for creating routes.
  *
- * @package   josh\api_factory
+ * @package   shelob9\api_factory
  * @author    Josh Pollock <Josh@JoshPress.net>
  * @license   GPL-2.0+
  * @link
  * @copyright 2016 Josh Pollock
  */
 
-namespace josh\api_factory\system;
+namespace shelob9\api_factory\system;
 
 
 
@@ -20,7 +20,7 @@ class factory {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @var  \josh\api_factory\system\factory
+	 * @var  \shelob9\api_factory\system\factory
 	 */
 	private static $instance;
 
@@ -29,7 +29,7 @@ class factory {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @return  \josh\api_factory\system\factory
+	 * @return  \shelob9\api_factory\system\factory
 	 */
 	public static function get_instance() {
 		if (null === static::$instance) {
@@ -85,7 +85,7 @@ class factory {
 			return;
 		}
 		$impliments = class_implements( $class );
-		if( ! empty( $impliments ) && in_array( 'josh\api_factory\system\api_interface', $impliments ) ) {
+		if( ! empty( $impliments ) && in_array( 'shelob9\api_factory\system\api_interface', $impliments ) ) {
 			return true;
 		}
 		

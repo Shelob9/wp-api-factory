@@ -11,11 +11,11 @@
  * @copyright 2016 Josh Pollock
  */
 
-namespace josh\api_factory;
+namespace shelob9\api_factory;
 
 
-use josh\api_factory\system\factory;
-use josh\api_factory\util;
+use shelob9\api_factory\system\factory;
+use shelob9\api_factory\util;
 
 
 class init {
@@ -34,7 +34,7 @@ class init {
 	 *
 	 * @since 1.0.0
 	 *
-	 * @var \josh\api_factory\system\factory
+	 * @var \shelob9\api_factory\system\factory
 	 */
 	protected $factory;
 

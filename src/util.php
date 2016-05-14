@@ -2,14 +2,14 @@
 /**
  * Utilities for this package
  *
- * @package   josh\api_factory
+ * @package   shelob9\api_factory
  * @author    Josh Pollock <Josh@JoshPress.net>
  * @license   GPL-2.0+
  * @link
  * @copyright 2016 Josh Pollock
  */
 
-namespace josh\api_factory;
+namespace shelob9\api_factory;
 
 
 class util {

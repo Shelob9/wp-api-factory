@@ -2,17 +2,17 @@
 /**
  * Add endpoint to API
  *
- * @package   josh\api_factory;
+ * @package   shelob9\api_factory;
  * @author    Josh Pollock <Josh@JoshPress.net>
  * @license   GPL-2.0+
  * @link
  * @copyright 2016 Josh Pollock
  */
 
-namespace josh\api_factory\system;
+namespace shelob9\api_factory\system;
 
 
-use josh\api_factory\util;
+use shelob9\api_factory\util;
 
 class endpoint {
 
